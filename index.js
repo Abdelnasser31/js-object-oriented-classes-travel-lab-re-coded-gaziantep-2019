@@ -1,6 +1,7 @@
 
 class Driver {
-  horizontalCalc = [
+  
+ let horizontalCalc = [
       '1st Avenue',
       '2nd Avenue',
       '3rd Avenue',
@@ -9,6 +10,7 @@ class Driver {
       'Madison Avenue',
       '5th Avenue'
     ];
+    
   constructor (name,startDate) {
     this.name      = name;
     this.startDate      = new Date(startDate); 

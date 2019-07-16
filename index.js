@@ -3,7 +3,7 @@ class Driver {
   
 
     
-  constructor (name,startDate) {
+  constructor(name,startDate) {
     this.name      = name;
     this.startDate      = new Date(startDate); 
   }
@@ -18,7 +18,7 @@ class Route {
     this.beginingLocation = beginingLocation;
     this.endingLocation   = endingLocation;
   }
-  blocksTravelled () {
+  blocksTravelled() {
         let eastWest = [
       '1st Avenue',
       '2nd Avenue',

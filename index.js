@@ -25,6 +25,6 @@ class Route {
     this.endingLocation   = endingLocation;
   }
   blocksTravelled () {
-    return (this.endingLocation.vertical  - this.beginingLocation.vertical) + eastWest.indexOf(this.endingLocation.horizintal);
+    return (this.endingLocation.vertical  - this.beginingLocation.vertical) + eastWest.indexOf(this.endingLocation.horizontal - this.beginingLocation.horizontal);
   }
 }

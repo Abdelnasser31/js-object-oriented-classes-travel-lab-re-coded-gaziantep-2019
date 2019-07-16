@@ -16,6 +16,6 @@ class Route {
     this.endingLocation   = endingLocation;
   }
   blocksTravelled () {
-    return this.endingLocation.vertical this.beginingLocation.vertical - 
+    return this.endingLocation.vertical  - this.beginingLocation.vertical;
   }
 }

@@ -30,4 +30,7 @@ class Route {
     ];
     return (this.endingLocation.vertical  - this.beginingLocation.vertical) + eastWest.indexOf(this.endingLocation.horizontal) - eastWest.indexOf(this.beginingLocation.horizontal);
   }
+  estimatedTime() {
+    
+  }
 }

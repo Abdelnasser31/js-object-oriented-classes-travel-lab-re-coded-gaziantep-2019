@@ -1,6 +1,6 @@
 
 class Driver {
-  eastWest = [
+  horizontalCalc = [
       '1st Avenue',
       '2nd Avenue',
       '3rd Avenue',
